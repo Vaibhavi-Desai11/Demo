@@ -10,4 +10,4 @@ spec:
   lifecycle: experimental
   owner: team-b
   system: demo
-  dependsOn: ['resource:artists-db']
+  dependsOn: ['resource:demo-db']
