@@ -10,3 +10,4 @@ spec:
   lifecycle: experimental
   owner: team-b
   system: demo
+  dependsOn: ['resource:demo-db']
