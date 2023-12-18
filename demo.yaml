@@ -8,6 +8,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-b
+  owner: user:guest
   system: demo
   dependsOn: ['resource:demo-db']
