@@ -10,4 +10,3 @@ spec:
   lifecycle: experimental
   owner: user:guest
   system: demo
-  dependsOn: ['demo-db']
