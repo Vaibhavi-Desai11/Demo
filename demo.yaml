@@ -1,16 +1,19 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: System
 metadata:
-  name: demo-api
-  description: Demo API
-  tags:
-    - java
+  name: demo-system
+  description: Demo System
 spec:
-  type: service
-  lifecycle: experimental
-  owner: user:guest
-  system: demo
-  config:
-    data:
-      - file: entities.yaml
-        path: ./entities.yaml
+  components:
+    - apiVersion: backstage.io/v1alpha1
+      kind: Component
+      metadata:
+        name: demo-api
+        description: Demo API
+        tags:
+          - java
+      spec:
+        type: service
+        lifecycle: experimental
+        owner: user:guest
+        system: demo-system
