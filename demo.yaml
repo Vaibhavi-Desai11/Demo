@@ -10,3 +10,7 @@ spec:
   lifecycle: experimental
   owner: user:guest
   system: demo
+  config:
+    data:
+      - file: entities.yaml
+        path: ./entities.yaml
