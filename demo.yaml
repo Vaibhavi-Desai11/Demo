@@ -165,3 +165,4 @@ metadata:
 spec:
   type: database
   owner: user:guest
+  lifecycle: experimental
