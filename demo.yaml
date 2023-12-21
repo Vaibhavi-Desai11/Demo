@@ -156,3 +156,12 @@ spec:
               format: int32
             message:
               type: string
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: demo-db
+  description: Stores demo user details
+spec:
+  type: database
+  owner: user:guest
